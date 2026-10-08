@@ -1,0 +1,28 @@
+# Python 3.10+ required; Python 3.11 or 3.12 recommended.
+
+# Groq LLM integration
+
+langchain
+langchain_community
+langchain-openai
+langchain-groq
+
+# Document chunking and embeddings
+langchain-text-splitters>=1.1,<2.0
+langchain-huggingface>=1.2,<2.0
+sentence-transformers>=5.2,<6.0
+
+# Vector database
+langchain-chroma>=1.1,<2.0
+chromadb>=1.0,<2.0
+
+# PDF extraction
+pypdf>=6.13,<7.0
+PyMuPDF>=1.26,<2.0
+
+# User interface
+streamlit>=1.58,<2.0
+
+# Environment variables and utilities
+python-dotenv>=1.1,<2.0
+numpy>=1.26,<3.0
